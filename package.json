@@ -1,0 +1,14 @@
+{
+  "name": "jiaxiao-kemu1",
+  "version": "1.0.0",
+  "description": "驾校科目一模拟考试系统：章节练题 / 错题重做 / 全真模拟 / 教练后台",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "seed": "node server/seed/run-seed.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
